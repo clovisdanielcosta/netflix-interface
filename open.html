@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<body onload="enableAutoplay()">
+
+    <video id="myVideo" width="320" height="240" muted>
+        <source src="./img/netflix-animation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+    
+    <!-- 
+        <script>
+            setTimeout( () => {
+                window.location = "/index.html"
+            }, 15000)
+        </script>
+
+
+     -->
+     <script>
+        var vid = document.getElementById("myVideo");
+        function enableAutoplay() { 
+            vid.play();
+            disableAutoplay();  
+        }
+        
+        function disableAutoplay() { 
+            setTimeout( () => {
+                vid.style.display = "none";
+               // window.location = "/index.html"
+            }, 5000)
+
+            
+        } 
+        
+        </script> 
+</body>
+</html>

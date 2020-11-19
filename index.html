@@ -3,14 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/main.js"></script>
         <title>Netflix Clone</title>
     </head>
-<body>
+<body onload="enableAutoplay()">
     
     <header>
         <div class="container">
-            <h2>NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -19,7 +20,50 @@
             </nav>
         </div>
     </header>
+    
+    <video id="netflix-video" muted>
+        <source src="./img/netflix-animation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
+    <main id="main">
+        <div class="main-movie">
+            <div class="container">
+                <h3 class="title">HOUSE OF CARDS</h3>
+                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+            </div>
+            
+            <div class="button">
+                <!-- Propriedade role usada para outros devices-->
+                <button role="button" class="button">
+                    Assistir agora
+                </button>
+                <button role="button" class="button">
+                    Mais inormações
+                </button>
+            </div>
+        
+        </div>
+    </main>
+
+<script>
+    
+// Função para iniciar com video animado 
+var vid = document.getElementById("netflix-video");
+var movie = document.getElementById("main");
+function enableAutoplay() { 
+movie.style.display = "none";
+vid.play();
+disableAutoplay();  
+}
+
+function disableAutoplay() { 
+setTimeout( () => {
+vid.style.display = "none";
+movie.style.display = "block";
+}, 4000)  
+}
+</script>   
 </body>
 
 </html>

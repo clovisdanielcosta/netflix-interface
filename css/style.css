@@ -1,0 +1,68 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Mantém os elementos dentro das caixas */
+}
+
+/* Base */
+
+body{
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    font-family: 'Arial Black', serif;
+    color: var(--red);
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+/* Vieo animado de abertura */
+#netflix-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
+
+/* Main movie */
+.main-movie{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    background: linear-gradient(rgba( 0, 0, 0,.50 ), rgba( 0, 0, 0, 0.50 )100%), url("/img/house-of-cards.jpg");
+    background-size: cover; /* Usado para manter a imagem dentro da div */
+    height: 400px;
+}
+
+.main-movie .description{
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 40px;
+}
