@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="Em desenvolvimento" src="img/in-development.png" width="25%">
+  <img alt="Em desenvolvimento" src="img/in-development.png" width="50%">
 </p>
 <h1 align="center">
 :small_red_triangle_down: Recreating the Netflix Interface
