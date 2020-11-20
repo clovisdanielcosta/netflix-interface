@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 0;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../img/netflix-animation.mp4");
+}
+
+#privacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    height: 50px;
+    background-color: black;
+    color: #E50914;
+}
+
+#privacy button{
+    background-color: #E50914;
+    color: white;
+    width: 60px;
+}
