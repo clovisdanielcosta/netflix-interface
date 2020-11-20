@@ -46,14 +46,18 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :books: Learning
 
+  - Better understanding about style inheritance between elements in HTML structure.
+
 ## :small_orange_diamond: Sharing
 
 ## :small_orange_diamond: Customizing
 
+  - Use of video on open page to make user experience more comfortable.
+
 ## :small_orange_diamond: License
 
-This project is undet MIT license. Open file [LICENSE](LICENSE.md) to details. 
-The images in this project were maded by repo's owner or taken from another repo in the web with the right authorization of use.
+This project is under MIT license. Open file [LICENSE](LICENSE.md) to details. 
+The images in this project were made by repo's owner or taken from another repo in the web with the right authorization of use.
 
 ## :small_orange_diamond: Thanks
 
