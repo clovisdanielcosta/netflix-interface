@@ -27,7 +27,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 <p align="center">
   <a href="#cloud-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-installation">Instalation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-learning">Learning</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-sharing">Sharing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-customizing">Customizing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,6 +40,9 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :cloud: Deploy
 
+  Was used Heroku to publish this page and you can see it by click on the link below:
+
+  - [https://clovisdanielcosta.github.io/netflix-interface/](https://clovisdanielcosta.github.io/netflix-interface/)
 
 
 ## :rocket: Technologies

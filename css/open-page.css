@@ -67,7 +67,7 @@ header nav a:hover{
     height: 400px;
     font-size: 16px;
 
-    background: url("/img/house-of-cards.jpg");
+    background: url("https://clovisdanielcosta.github.io/netflix-interface/img/house-of-cards.jpg");
     background-size: cover; /* Usado para manter a imagem dentro da div */
 }
 
