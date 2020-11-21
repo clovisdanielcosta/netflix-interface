@@ -25,10 +25,15 @@
     }
 }
 
-@media screen and (min-width: 370px){
+@media screen and (min-width: 370px) and (max-width: 570px){
     
+    #main{
+        height: 30vh;
+        margin-top: 50px;
+    }
+
     .main-movie .title{
-        margin-top: 80px;
+        margin-top: 180px;
         font-size: 16px;
         
     }
@@ -37,10 +42,14 @@
         font-size: 12px;
     }
     .main-movie{
-        height: 150px;
+        height: 100px;
         margin-top: 20px;
         
         background: url("/img/house-of-cards.jpg");
         background-size: cover; /* Usado para manter a imagem dentro da div */
+    }
+
+    .trailers iframe{
+        width: 100%; 
     }
 }

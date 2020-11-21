@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <title>Netflix Clone</title>
     </head>
-<body onload="">
+<body onload="hideOpenSection()">
     
     <header>
         <div class="container">
@@ -25,44 +25,59 @@
         </div>
     </header>
     
-    <main id="main">
-        <div class="main-movie">
-            <div class="container">
-                <h3 class="title">HOUSE OF CARDS</h3>
-                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
-                <div class="buttons">
-                    <button role="button" class="button"> <!-- Propriedade role usada para outros devices-->
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="button">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
+    <section id="section-main">
+        <main id="main">
+            <div class="main-movie">
+                <div class="container">
+                    <h3 class="title">HOUSE OF CARDS</h3>
+                    <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                    <div class="buttons">
+                        <button onclick="showTrailer(0)" role="button" class="button"> <!-- Propriedade role usada para outros devices-->
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="button">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
                 </div>
             </div>
+        </main>
+    </section>
+    
+    <section id="section-carousel">
+        <div class="carousel-movies">
+            <div class="owl-carousel owl-theme">
+                <div onclick="showTrailer(1)" class="item"><img class="box-movies" src="img/movie_01.jpg"></div>
+                <div onclick="showTrailer(2)" class="item"><img class="box-movies" src="img/movie_02.jpg"></div>
+                <div onclick="showTrailer(3)" class="item"><img class="box-movies" src="img/movie_03.jpg"></div>
+                <div onclick="showTrailer(4)" class="item"><img class="box-movies" src="img/movie_04.jpg"></div>
+                <div onclick="showTrailer(5)" class="item"><img class="box-movies" src="img/movie_05.jpg"></div>
+                <div onclick="showTrailer(6)" class="item"><img class="box-movies" src="img/movie_06.jpg"></div>
+                <div onclick="showTrailer(7)" class="item"><img class="box-movies" src="img/movie_07.jpg"></div>
+                <div onclick="showTrailer(8)" class="item"><img class="box-movies" src="img/movie_08.jpg"></div>
+                <div onclick="showTrailer(9)" class="item"><img class="box-movies" src="img/movie_09.jpg"></div>
+                <div onclick="showTrailer(10)" class="item"><img class="box-movies" src="img/movie_10.jpg"></div>
+            </div>    
         </div>
-    </main>
+    </section>
 
-    <div class="carousel-movies">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><img class="box-movies" src="img/movie_01.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_02.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_03.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_04.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_05.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_06.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_07.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_08.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_09.jpg"></div>
-            <div class="item"><img class="box-movies" src="img/movie_10.jpg"></div>
-        </div>    
-    </div>
+    <section id="section-trailer">
+        <button onclick="backHome()" class="button">
+            <i class="fas fa-arrow-left"></i>
+            VOLTAR
+        </button>
+        <div class="trailers">
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/48952a9e16.js" crossorigin="anonymous"></script>   
     <script type="text/javascript" src="js/owl/jquery.min.js"></script>
     <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/owl/owl-setup.js"></script>
+    <script type="text/javascript" src="js/open-page.js"></script>
+
 </body>
 
 </html>

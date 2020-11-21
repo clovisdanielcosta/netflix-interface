@@ -42,7 +42,7 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
     padding-left: 20px;
-    font-size: 12px;
+    font-size: 16px;
 }
 header nav a:hover{
     color: #fff;
@@ -107,12 +107,32 @@ header nav a:hover{
 }
 
 .carousel-movies{
-    margin-top: 70px;
+    margin-top: 10px;
     height: 100%;
     width: 100%;
-    
 }
 
 .box-movies{
     display: block;
+
+    cursor: pointer;
+}
+
+.box-movies:hover{
+    border: 3px solid grey;
+}
+
+#section-trailer button{
+    margin-top: 15px;
+}
+
+.trailers{
+    margin-top: 15px;
+}
+
+.trailers iframe{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;   
 }
