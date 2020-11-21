@@ -42,8 +42,9 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
+
 header nav a:hover{
     color: #fff;
 }
@@ -128,11 +129,11 @@ header nav a:hover{
 
 .trailers{
     margin-top: 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;   
 }
 
 .trailers iframe{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin:0 auto;   
+    margin:0 auto;
 }

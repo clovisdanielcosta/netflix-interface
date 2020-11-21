@@ -19,14 +19,22 @@
     }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px){
     .description{
         width: 60%;
     }
 }
 
-@media screen and (min-width: 370px) and (max-width: 570px){
+@media screen and (min-width: 360px) and (max-width: 570px){
     
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        
+        padding-left: 5px;
+        font-size: 16px;
+    }
+
     #main{
         height: 30vh;
         margin-top: 50px;
@@ -39,7 +47,10 @@
     }
 
     .description{
-        font-size: 12px;
+        width: 100%;
+        font-size: 10px;
+        margin-top: 10px;
+        margin: 0;
     }
     .main-movie{
         height: 100px;
@@ -47,6 +58,44 @@
         
         background: url("/img/house-of-cards.jpg");
         background-size: cover; /* Usado para manter a imagem dentro da div */
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .button{
+        width: 300px;
+        padding: 3px 1px 3px 1px;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 9px;
+    }
+
+    .button i{
+        font-size: 9px;
+    }
+
+    #back-button{
+        width: 200px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    
+    #back-button:hover{
+        background-color: white;
+    }
+    .carousel-movies{
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
     }
 
     .trailers iframe{
