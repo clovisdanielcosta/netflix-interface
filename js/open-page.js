@@ -8,11 +8,13 @@ function hideOpenSection() {
     vTrailer.style.display = "none";
     vMain.style.display = "block";
     vCarousel.style.display = "block";
-  }
+    }
 
  //Function back Home 
 function backHome(){
-      window.location = "/open_page.html";
+    vTrailer.style.display = "none";
+    vMain.style.display = "block";
+    vCarousel.style.display = "block";
     } 
 
 //Function to switch between movies and show just section trailers

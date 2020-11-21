@@ -128,12 +128,16 @@ header nav a:hover{
 }
 
 .trailers{
-    margin-top: 15px;
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    flex-direction: column;  
+    margin-top: 15px;
 }
 
 .trailers iframe{
-    margin:0 auto;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;  
 }

@@ -21,6 +21,13 @@ function disableMute() {
 function disableAutoplay() { 
     setTimeout( () => {
         vid.style.display = "none";
-        window.location = "./open_page.html";
+
+        if (location.hostname === "localhost" || 
+            location.hostname === "127.0.0.1" || 
+            location.hostname === "") {
+                window.location = "./open_page.html";
+            } else {
+                window.location = "./open_page.html";
+            }
     }, 5000)  
 } 
