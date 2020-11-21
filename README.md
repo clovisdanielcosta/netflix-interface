@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Logo Netflix" src="img/netflix-logo.png" width="25%">
+  <img  alt="Logo Netflix" src="img/netflix-logo-big.png" width="40%">
 </p>
 
 <h2 align="center">
