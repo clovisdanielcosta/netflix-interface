@@ -21,6 +21,6 @@ function disableMute() {
 function disableAutoplay() { 
     setTimeout( () => {
         vid.style.display = "none";
-        window.location = "/open_page.html";
+        window.location = "./open_page.html";
     }, 5000)  
 } 
