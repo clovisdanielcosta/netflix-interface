@@ -70,7 +70,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :small_orange_diamond: Sharing
 
-  To inject elements in your file HTML using javascript you could take a look in this code below:
+  To inject elements in your file HTML using javascript you could take a look in this code below. You just need put the function "showTrailer(1)" on onclick event in yours buttons or anchors. Don't forget pass the parameter of movie selected inside of parenthesis in the function:
 
   ```javascript
 
