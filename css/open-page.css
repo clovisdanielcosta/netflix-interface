@@ -42,7 +42,7 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 12px;
 }
 header nav a:hover{
     color: #fff;
@@ -84,6 +84,7 @@ header nav a:hover{
 .button{
     background: linear-gradient(rgba( 0, 0, 0,.20 ), rgba( 0, 0, 0, 0.80 )100%);
     border: none;
+    width: 230px;
     color: white;
     font-weight: 700;
 
@@ -105,8 +106,13 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.carousel-movies{
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+    
+}
+
 .box-movies{
-    height: 50%;
-    width: 50%;
     display: block;
 }

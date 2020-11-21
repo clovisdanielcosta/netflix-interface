@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    header img{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        width: 40%;
+    }
+
+    .button{
+            margin-bottom: 8px;
+            width: 200px;
+            font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .description{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 370px){
+    
+    .main-movie .title{
+        margin-top: 80px;
+        font-size: 16px;
+        
+    }
+
+    .description{
+        font-size: 12px;
+    }
+    .main-movie{
+        height: 150px;
+        margin-top: 20px;
+        
+        background: url("/img/house-of-cards.jpg");
+        background-size: cover; /* Usado para manter a imagem dentro da div */
+    }
+}
