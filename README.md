@@ -50,12 +50,14 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
   - Better understanding about properties standard automatically assigned to CSS elements.
   - Stumble with site Fontawesome and Owl Carousel for the first time.
   - Use of sub property linear-gradient on CSS background element.
+  - Use of JQuery carousel despite it´s use was about to change to deprecated. 
 
 ## :small_orange_diamond: Sharing
 
 ## :small_orange_diamond: Customizing
 
   - Applied my own pattern of folders structure and filenames. 
+  - Personal choose of fonts and colors.
   - Use of video on open page to make user experience more comfortable.
 
 ## :small_orange_diamond: License

@@ -32,6 +32,11 @@ header .logo{
     letter-spacing: 0.38rem;
 }
 
+header img{
+    padding-top: 15px;
+    width: 12%;
+}
+
 header nav a{
     text-decoration: none;
     color: #AAA;
@@ -49,7 +54,7 @@ header nav a:hover{
 }
 
 .main-movie .container{
-    width: 60%
+    width: 55%
 }
 
 /* Main movie */
@@ -98,4 +103,10 @@ header nav a:hover{
 .button i{
     font-size: 16px;
     margin-right: 8px;
+}
+
+.box-movies{
+    height: 50%;
+    width: 50%;
+    display: block;
 }

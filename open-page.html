@@ -4,13 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <link rel="stylesheet" href="css/open-page.css">
+        <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
         <title>Netflix Clone</title>
     </head>
 <body onload="">
     
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <!-- <h2 class="logo"> -->
+                <img src="img/netflix-logo.png" alt="logo netflix">
+                <!-- NETFLIX</h2> -->
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -39,8 +43,25 @@
         </div>
     </main>
 
-    <script src="https://kit.fontawesome.com/48952a9e16.js" crossorigin="anonymous"></script>   
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-movies" src="img/movie_01.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_02.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_03.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_04.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_05.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_06.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_07.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_08.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_09.jpg"></div>
+            <div class="item"><img class="box-movies" src="img/movie_10.jpg"></div>
+        </div>    
+    </div>
 
+    <script src="https://kit.fontawesome.com/48952a9e16.js" crossorigin="anonymous"></script>   
+    <script type="text/javascript" src="js/owl/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/owl/owl-setup.js"></script>
 </body>
 
 </html>
