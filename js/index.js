@@ -21,13 +21,12 @@ function disableMute() {
 function disableAutoplay() { 
     setTimeout( () => {
         vid.style.display = "none";
-
         if (location.hostname === "localhost" || 
             location.hostname === "127.0.0.1" || 
             location.hostname === "") {
                 window.location = "./open_page.html";
             } else {
-                window.location = "./open_page.html";
+                window.location = "https://github.com/clovisdanielcosta/netflix-interface/open_page.html";
             }
     }, 5000)  
 } 

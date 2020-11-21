@@ -12,10 +12,14 @@ function hideOpenSection() {
 
  //Function back Home 
 function backHome(){
-    vTrailer.style.display = "none";
-    vMain.style.display = "block";
-    vCarousel.style.display = "block";
-    } 
+    if (location.hostname === "localhost" || 
+    location.hostname === "127.0.0.1" || 
+    location.hostname === "") {
+        window.location = "./open_page.html";
+    } else {
+        window.location = "https://github.com/clovisdanielcosta/netflix-interface/open_page.html";
+    }
+} 
 
 //Function to switch between movies and show just section trailers
 function showTrailer(movieReceived) {
