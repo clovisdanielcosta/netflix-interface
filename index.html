@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Netflix</title>
 </head>
 <body onload="">
@@ -22,36 +22,6 @@
         </video>
          
     </div>
-<script>
-        var vid = document.getElementById("myVideo");
-        var priv = document.getElementById("privacy");
-        
-        function openPlay() { 
-            vid.style.display = "none";
-        }
-        
-        function enableAutoplay() { 
-            priv.style.display = "none";
-            vid.style.display = "block";
-            vid.play();
-            disableAutoplay();  
-        }
-        function disableMute() { 
-            vid.style.display = "none";
-            vid.muted = false;
-            enableAutoplay();
-
-        }
-
-        function disableAutoplay() { 
-            setTimeout( () => {
-                vid.style.display = "none";
-                window.location = "/open-page.html"
-            }, 5000)
-
-            
-        } 
-        
-        </script> 
+        <script type="text/javascript" src="js/index.js"></script> 
 </body>
 </html>
