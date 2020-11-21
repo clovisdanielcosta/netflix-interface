@@ -1,7 +1,3 @@
-
-<p align="center">
-  <img alt="Em desenvolvimento" src="img/in-development.png" width="50%">
-</p>
 <h1 align="center">
 :small_red_triangle_down: Recreating the Netflix Interface
 </h1>
@@ -40,7 +36,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
 ## :cloud: Deploy
 
-  Was used Heroku to publish this page and you can see it by click on the link below:
+  Was used GitHub.io to publish this page and you can see it by click on the link below:
 
   - [https://clovisdanielcosta.github.io/netflix-interface/](https://clovisdanielcosta.github.io/netflix-interface/)
 
