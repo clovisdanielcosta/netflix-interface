@@ -121,3 +121,6 @@ The images in this project were made by repo's owner or taken from another repo 
 
 ## :small_orange_diamond: Thanks
 
+I wanna to say thank you to <b>Digital Innovation One</b> and <b>everis</b> for make this bootcamp possible. Special thanks to Felipe Aguiar by skillfully teaching in this course. Make me like of front-end a little more. Thank you so much. You all are doing a great job. 
+
+Well done! :clap: :clap:
