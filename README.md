@@ -47,7 +47,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
   To build this project the follow technologies were used:
 
   - [Html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-  - [Css3](http://www.linhadecodigo.com.br/artigo/3566/introducao-as-novidades-do-css3.aspx)
+  - [Css3](https://www.w3schools.com/css/)
   - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   - [FontAwesome](https://fontawesome.com/)
   - [OwlCarousel](https://owlcarousel2.github.io/OwlCarousel2/)
