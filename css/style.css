@@ -25,9 +25,11 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    font-family: 'Arial Black', serif;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-weight: 800;
     color: var(--red);
     font-size: 40px;
+    letter-spacing: 0.38rem;
 }
 
 header nav a{
@@ -39,13 +41,13 @@ header nav a:hover{
     color: #fff;
 }
 
-/* Vieo animado de abertura */
-#netflix-video{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 100px;
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-movie .container{
+    width: 60%
 }
 
 /* Main movie */
@@ -54,16 +56,41 @@ header nav a:hover{
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    font-size: 16px;
-    background: linear-gradient(rgba( 0, 0, 0,.50 ), rgba( 0, 0, 0, 0.50 )100%), url("/img/house-of-cards.jpg");
-    background-size: cover; /* Usado para manter a imagem dentro da div */
     height: 400px;
+    font-size: 16px;
+
+    background: url("/img/house-of-cards.jpg");
+    background-size: cover; /* Usado para manter a imagem dentro da div */
 }
 
 .main-movie .description{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.title{
+.main-movie .title{
+    margin-top: 15%;
     font-size: 40px;
+    font-weight: normal;
+}
+
+.button{
+    background: linear-gradient(rgba( 0, 0, 0,.50 ), rgba( 0, 0, 0, 0.50 )100%);
+    border: none;
+    color: white;
+
+    margin-right: 15px;
+    padding: 15px 30px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background-color: var(--red);
+}
+
+.button i{
+    font-size: 16px;
+    margin-right: 8px;
 }
