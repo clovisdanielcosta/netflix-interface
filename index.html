@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <script type="text/javascript" src="./js/main.js"></script>
-        <title>Netflix Clone</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/open.css">
+    <title>Netflix</title>
+</head>
 <body onload="">
-    
-    <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-            </nav>
-        </div>
-    </header>
-    
-<!--     <video id="netflix-video" muted>
-        <source src="./img/netflix-animation.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
- -->
-    <main id="main">
-        <div class="main-movie">
-            <div class="container">
-                <h3 class="title">HOUSE OF CARDS</h3>
-                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
-            </div>
-            
-            <div class="button">
-                <!-- Propriedade role usada para outros devices-->
-                <button role="button" class="button">
-                    Assistir agora
-                </button>
-                <button role="button" class="button">
-                    Mais inormações
-                </button>
-            </div>
+    <div class="container">
         
+        <div id="privacy">
+             <p>Nós usamos cookies para melhorar a experiência do usuário.
+                Ao continuar você indica concordar com nossa política de privacidade. 
+             </p>
+            <button onclick="openPlay(), disableMute()">Aceito</button>
         </div>
-    </main>
-
-<script>
     
-/* // Função para iniciar com video animado 
-var vid = document.getElementById("netflix-video");
-var movie = document.getElementById("main");
-function enableAutoplay() { 
-movie.style.display = "none";
-vid.play();
-disableAutoplay();  
-}
+        <video id="myVideo"  width="100%" muted>
+            <source src="./img/netflix-animation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+         
+    </div>
+<script>
+        var vid = document.getElementById("myVideo");
+        var priv = document.getElementById("privacy");
+        
+        function openPlay() { 
+            vid.style.display = "none";
+        }
+        
+        function enableAutoplay() { 
+            priv.style.display = "none";
+            vid.style.display = "block";
+            vid.play();
+            disableAutoplay();  
+        }
+        function disableMute() { 
+            vid.style.display = "none";
+            vid.muted = false;
+            enableAutoplay();
 
-function disableAutoplay() { 
-setTimeout( () => {
-vid.style.display = "none";
-movie.style.display = "block";
-}, 4000)  
-} */
-</script>   
+        }
+
+        function disableAutoplay() { 
+            setTimeout( () => {
+                vid.style.display = "none";
+                window.location = "/open-page.html"
+            }, 5000)
+
+            
+        } 
+        
+        </script> 
 </body>
-
 </html>

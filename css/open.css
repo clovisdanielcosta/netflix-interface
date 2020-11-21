@@ -30,14 +30,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10px;
-    height: 50px;
+    margin-top: 10px;
+    height: 80px;
     background-color: black;
+    text-align: center;
     color: #E50914;
 }
 
 #privacy button{
     background-color: #E50914;
     color: white;
-    width: 60px;
+    margin-top: 10px;
+    width: 80px;
 }
