@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Calibri, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
@@ -31,25 +31,33 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 10px;
-    height: 80px;
+    height: 120px;
     background-color: black;
     text-align: center;
-    color: #E50914;
+    color: white;
 }
 
 #privacy button{
     background-color: #E50914;
     color: white;
     margin-top: 10px;
-    width: 80px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+
+
+    cursor: pointer;
 }
 
-/* Vieo animado de abertura */
-/* #netflix-video{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 100px;
+#privacy h1{
+    font-size: 30px;
+    color: #E50914;
 }
- */
+
+#privacy b{
+    color: #E50914;
+    text-decoration: underline;
+
+    cursor: pointer;
+}

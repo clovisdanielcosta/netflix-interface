@@ -48,7 +48,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
 
   - Better understanding about style inheritance between elements in HTML structure.
   - Better understanding about properties standard automatically assigned to CSS elements.
-  - Stumble with site fontawesome.com for the first time.
+  - Stumble with site Fontawesome and Owl Carousel for the first time.
   - Use of sub property linear-gradient on CSS background element.
 
 ## :small_orange_diamond: Sharing
