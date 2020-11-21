@@ -26,7 +26,7 @@ function disableAutoplay() {
             location.hostname === "") {
                 window.location = "./open_page.html";
             } else {
-                window.location = "https://github.com/clovisdanielcosta/netflix-interface/open_page.html";
+                window.location = "https://clovisdanielcosta.github.io/netflix-interface/open_page.html";
             }
     }, 5000)  
 } 
