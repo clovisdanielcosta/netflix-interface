@@ -12,7 +12,7 @@ function hideOpenSection() {
 
  //Function back Home 
 function backHome(){
-      window.location = "/open-page.html";
+      window.location = "/open_page.html";
     } 
 
 //Function to switch between movies and show just section trailers
