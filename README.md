@@ -111,7 +111,7 @@ This repository was created as part of bootcamp "everis FullStack Developer" by 
   - Personal choose of fonts and colors.
   - Use of CSS display.style to hide and show sections which minimize add of extra pages on project. 
   - Use of video on open page to make user experience more comfortable.
-  - Use of injection elements html by javascript doing a catch the code of movie selected.
+  - Use of html elements injection by javascript doing a catch the code of movie selected.
 
 ## :small_orange_diamond: License
 
